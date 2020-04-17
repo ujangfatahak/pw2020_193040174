@@ -41,7 +41,7 @@ $result = mysqli_query($conn, "SELECT * FROM alat musik");
             <?php while($row = mysqli_fetch_assoc($result)) :  ?>
             <tr>
                 <td><?= $i ?></td>
-                <td><img src="assets/img/<?= $row['foto']; ?>"></td>
+                <td><img src="assets/img/<?= $row['gambar']; ?>"></td>
                 <td><?= $row["nama"]; ?></td>
                 <td><?= $row["deskripsi"]; ?></td>
                 <td><?= $row["asal daerah"]; ?></td>
